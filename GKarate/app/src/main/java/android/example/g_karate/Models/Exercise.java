@@ -3,6 +3,7 @@ package android.example.g_karate.Models;
 import android.media.Image;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Exercise {
 
@@ -10,15 +11,25 @@ public class Exercise {
     private String name;
     private String description;
     private String nameSport;
-    private ArrayList<Image> moves;
+    private List<String> moves;
     private int difficulty;
-    private String[] accessibleDisabilities;
+    private List<String> accessibleDisabilities;
 
 
     public Exercise(){}
 
-    public Exercise(String id, String name, String description, String nameSport, ArrayList<Image> moves, int difficulty, String[] accessibleDisabilities) {
+    public Exercise(String id, String name, String description, String nameSport, List<String> moves, int difficulty, List<String> accessibleDisabilities) {
         this.id = id;
+        this.name = name;
+        this.description = description;
+        this.nameSport = nameSport;
+        this.moves = moves;
+        this.difficulty = difficulty;
+        this.accessibleDisabilities = accessibleDisabilities;
+    }
+
+    public Exercise( String name, String description, String nameSport, List<String> moves, int difficulty, List<String> accessibleDisabilities) {
+
         this.name = name;
         this.description = description;
         this.nameSport = nameSport;
@@ -59,11 +70,11 @@ public class Exercise {
         this.nameSport = nameSport;
     }
 
-    public ArrayList<Image> getMoves() {
+    public List<String> getMoves() {
         return moves;
     }
 
-    public void setMoves(ArrayList<Image> moves) {
+    public void setMoves(List<String> moves) {
         this.moves = moves;
     }
 
@@ -75,11 +86,11 @@ public class Exercise {
         this.difficulty = difficulty;
     }
 
-    public String[] getAccessibleDisabilities() {
+    public List<String> getAccessibleDisabilities() {
         return accessibleDisabilities;
     }
 
-    public void setAccessibleDisabilities(String[] accessibleDisabilities) {
+    public void setAccessibleDisabilities(List<String> accessibleDisabilities) {
         this.accessibleDisabilities = accessibleDisabilities;
     }
 }

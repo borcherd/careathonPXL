@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/goToCoachButton"
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:layout_marginTop="112dp"
@@ -16,18 +16,19 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:onClick="goToCoachSelection"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/goToUserButton"
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="75dp"
         android:text="gebruiker"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goToCoachButton"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="map">Map</string>
+
+    <string name="history_description">History</string>
+
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Main activity -->
+    <string name="app_name">Care-athon</string>
+    <string name="app_title">Care-athon</string>
+
+    <string name="map_title">Map</string>
+    <string name="session_title">Session</string>
+    <string name="profile_title">Profile</string>
+    <string name="account_title">Account</string>
+    <string name="register_title">Register</string>
+    <string name="history_title">History</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Account page -->
+    <string name="user_uid">Uid:</string>
+
+    <!-- Faulty login -->
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_invalid_login">Incorrect login or password</string>
+
+    <!-- Home -->
+    <string name="user_sign_in">Sign in</string>
+    <string name="user_register">Register</string>
+
+    <string name="user_password">Password:</string>
+    <string name="user_confirm_password">Confirm Password:</string>
+    <string name="user_email">Email:</string>
+    <string name="user_name">Full Name:</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+</resources>

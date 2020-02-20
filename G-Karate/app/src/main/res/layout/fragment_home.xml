@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/home_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activities.HomeFragment"
+        android:screenOrientation="portrait">
+
+    <Button
+            android:id="@+id/coach"
+            android:layout_width="220dp"
+            android:layout_height="125dp"
+            android:text="coach"
+            app:layout_constraintStart_toStartOf="@id/gebruiker"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+            android:id="@+id/gebruiker"
+            android:layout_width="220dp"
+            android:layout_height="125dp"
+            android:layout_marginStart="92dp"
+            android:text="gebruiker"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="371dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

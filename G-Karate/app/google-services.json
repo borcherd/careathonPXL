@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "573606958113",
+    "firebase_url": "https://rentabike-b0b9b.firebaseio.com",
+    "project_id": "rentabike-b0b9b",
+    "storage_bucket": "rentabike-b0b9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573606958113:android:0768c1a54bd3cf60e17f60",
+        "android_client_info": {
+          "package_name": "android.example.rentabike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573606958113-4npt8hur1p7ccmm5l2kb3ihorbs81k19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.rentabike",
+            "certificate_hash": "e4910a0a6a2c940495f9840eadd2734e808f0565"
+          }
+        },
+        {
+          "client_id": "573606958113-kl9fc2jgftiktl7mcve4du1cf6ck3et9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.rentabike",
+            "certificate_hash": "a01e92dc22bfbfba7ecdcaafa27bea4b1474e1d0"
+          }
+        },
+        {
+          "client_id": "573606958113-he4dgqfotruf9k0eojnjee2qk942i2fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCetb0zrT3h6P3Dr2kyAUsx84MB_R3ly-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573606958113-he4dgqfotruf9k0eojnjee2qk942i2fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

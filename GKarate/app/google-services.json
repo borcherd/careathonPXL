@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "783444706829",
+    "firebase_url": "https://careathon-97a64.firebaseio.com",
+    "project_id": "careathon-97a64",
+    "storage_bucket": "careathon-97a64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783444706829:android:031c6e7000d471fabaf744",
+        "android_client_info": {
+          "package_name": "android.example.g_karate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783444706829-l0i6jlc95j27pdu24f5ndftbrtbu48k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyqXNsAWYQC10X3nOMpxZ3cbvq_ApGqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783444706829-l0i6jlc95j27pdu24f5ndftbrtbu48k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

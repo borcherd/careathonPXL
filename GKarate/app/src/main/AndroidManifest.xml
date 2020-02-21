@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ExerciseSummary"></activity>
+        <activity android:name=".SelectKeypointActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CoachSelectionActivity"></activity>
-        <activity android:name=".ExerciseSelectionActivity"></activity>
-        <activity android:name=".NewExercise1Activity"></activity>
-        <activity android:name=".NewExercise2Activity"></activity>
-
+        <activity android:name=".CoachSelectionActivity" />
+        <activity android:name=".ExerciseSelectionActivity" />
+        <activity android:name=".NewExercise1Activity" />
+        <activity android:name=".NewExercise2Activity" />
     </application>
 
 </manifest>

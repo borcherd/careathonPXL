@@ -70,7 +70,6 @@ public class ExerciseSelectionActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 String id = document.getId();
-                                Log.d("1", document.get("name").toString());
                                 String name = document.get("name").toString();
                                 String description = document.get("description").toString();
                                 String nameSport = document.get("nameSport").toString();
@@ -80,12 +79,10 @@ public class ExerciseSelectionActivity extends AppCompatActivity {
 
                                 Exercise exercise = new Exercise(id, name, description, nameSport, moves, difficulty, accessibleDisabilities);
                                 exercises.add(exercise);
-                                Log.d("1", document.getId());
-                                Log.d("1", "net na add");
-                                Log.d("1", String.valueOf(exercises.size()));
 
 
                             }
+                            Log.d("1", "Got all data from database");
                         } else {
                             Log.d("1", "Error getting documents: ", task.getException());
                         }
@@ -94,15 +91,12 @@ public class ExerciseSelectionActivity extends AppCompatActivity {
     }
 
     public void fillRecyclerView(){
-        Log.d("1", String.valueOf(exercises.size()));
-        Log.d("1", String.valueOf(exercises.get(0).getName()));
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         mAdapter = new MyAdapter(exercises);
         recyclerView.setAdapter(mAdapter);
-        Log.d("1", "test");
 
 
     }
